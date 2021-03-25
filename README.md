@@ -2,6 +2,14 @@
 
 This is a docker environment designed to give you all of the tools you need to develop a wordpress site.
 
+## Prerequisites
+
+* [Docker Desktop](https://www.docker.com/products/docker-desktop) (MacOS and Windows)
+
+* [Docker Engine](https://docs.docker.com/engine/install/) (Linux)
+
+* [Docker Compose](https://docs.docker.com/compose/install/) (Linux)
+
 ## Setup
 
 1. Clone repo to project, and rename the directory.
