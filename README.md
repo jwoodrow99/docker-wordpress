@@ -7,7 +7,7 @@ This is a docker environment designed to give you all of the tools you need to d
 1. Clone repo to project, and rename the directory.
 
     ```bash
-        git clone https://github.com/jwoodrow99/docker-wordpress.git ~/Workspace/APP-NAME
+    git clone https://github.com/jwoodrow99/docker-wordpress.git ~/Workspace/APP-NAME
     ```
 
 2. Open a terminal in the cloned directory.
@@ -15,13 +15,19 @@ This is a docker environment designed to give you all of the tools you need to d
 3. Start the docker environment.
 
     ``` bash
-        docker-compose up -d
+    docker-compose up -d
     ```
 
 4. Stop the docker environment.
 
     ``` bash
-        docker-compose down
+    docker-compose down
+    ```
+
+5. Destroy the docker environment.
+
+    ``` bash
+    docker system prune -a
     ```
 
 ## Ports
