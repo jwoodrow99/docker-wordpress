@@ -30,6 +30,10 @@ This is a docker environment designed to give you all of the tools you need to d
     docker system prune -a
     ```
 
+## Reset Project
+
+You can either delete the folder and clone the repo again, or simply delete the ```/data``` directory and restart the container.
+
 ## Ports
 
 * Wordpress: [localhost:8000](http://localhost:8000/)
