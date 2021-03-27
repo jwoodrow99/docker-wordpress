@@ -1,6 +1,6 @@
 # WordPress Docker
 
-This is a docker environment designed to give you all of the tools you need to develop a wordpress site.
+This is a docker environment designed to give you all of the tools you need to develop and manage a wordpress site.
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ This is a docker environment designed to give you all of the tools you need to d
 
 ## Reset Project
 
-You can either delete the folder and clone the repo again, or simply delete the ```/data``` directory and restart the container.
+All relivent data is stored in the ```/data``` directory, with image specific data stored in a subdirectory with the name of the related image. This allows for the docker container and images to be destroyed and built again without loosing any data, as well as backing up your project. To fully reset the container delete the ```/data``` directory and build the container again.
 
 ## Ports
 
