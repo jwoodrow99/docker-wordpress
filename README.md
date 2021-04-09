@@ -12,10 +12,10 @@ This is a docker environment designed to give you all of the tools you need to d
 
 ## Setup
 
-1. Clone repo to project, and rename the directory.
+1. Clone repo to project, and rename the directory (replace "WEBSITE-NAME" with the name of your website).
 
     ```bash
-    git clone https://github.com/jwoodrow99/docker-wordpress.git ~/Workspace/APP-NAME
+    git clone https://github.com/jwoodrow99/docker-wordpress.git ~/Workspace/WEBSITE-NAME
     ```
 
 2. Open a terminal in the cloned directory.
@@ -26,13 +26,15 @@ This is a docker environment designed to give you all of the tools you need to d
     docker-compose up -d
     ```
 
-4. Stop the docker environment.
+4. Go to [localhost:8000](http://localhost:8000/) and follow the WordPress setup.
+
+5. Stop the docker environment.
 
     ``` bash
     docker-compose down
     ```
 
-5. Destroy the docker environment.
+6. Destroy the docker environment.
 
     ``` bash
     docker system prune -a
@@ -49,3 +51,13 @@ All relivent data is stored in the ```/data``` directory, with image specific da
 * phpMyAdmin: [localhost:3333](http://localhost:3333/)
 
 * MailHog: [localhost:8025](http://localhost:8025/)
+
+## Passwords
+
+* MySQL Root:
+  * **Username**: root
+  * **Password**: root
+
+* MySQL User:
+  * **Username**: wordpress
+  * **Password**: password
