@@ -1,5 +1,4 @@
 data/
-.env
 
 # Ignore IDE and system specific files
 **/.DS_Store

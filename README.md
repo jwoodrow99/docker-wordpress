@@ -46,6 +46,8 @@ All relivent data is stored in the ```/data``` directory, with image specific da
 
 ## Ports
 
+All ports can be configurd in the ```.env``` file, in the root of the project.
+
 * Wordpress: [localhost:8000](http://localhost:8000/)
 
 * phpMyAdmin: [localhost:3333](http://localhost:3333/)
@@ -53,6 +55,8 @@ All relivent data is stored in the ```/data``` directory, with image specific da
 * MailHog: [localhost:8025](http://localhost:8025/)
 
 ## Passwords
+
+All passwords can be configurd in the ```.env``` file, in the root of the project.
 
 * MySQL Root:
   * **Username**: root
